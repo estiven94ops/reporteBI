@@ -1,0 +1,52 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de log
+*.log
+
+# Archivos de base de datos local
+*.sqlite3
+db.sqlite3
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Archivos estáticos generados (Render usa STATIC_ROOT)
+staticfiles/
+
+# Configuración local de Django o secretos
+.env
+*.env
+*.local
+
+# Archivos de migraciones rotas o temporales
+*.bak
+*.swp
+
+# Archivos de despliegue (si no quieres subirlos)
+# render.yaml
+
+# Archivos de cache de Django
+*.pyc
