@@ -23,11 +23,11 @@
             {% csrf_token %}
             <div class="mb-3">
                 <label for="username" class="form-label">Correo electrónico</label>
-                <input type="text" class="form-control" name="email" required autofocus>
+                <input type="text" class="form-control" name="email" id="email" required autofocus>
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" name="password"  required>
+                <input type="password" class="form-control" name="password" id="password" required>
             </div>
             <button type="submit" class="btn btn-primary w-100">Ingresar</button>
         </form>
